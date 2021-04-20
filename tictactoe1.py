@@ -79,7 +79,6 @@ def check_row(user, board):
 
 while True:
     active_user= current_user(user)
-    print_board(board)
     user_input= input(" Enter position from 1 through 9 or enter \"q\" to quit:")
     if quit(user_input): break
     if not check_input(user_input):
